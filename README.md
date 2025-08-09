@@ -36,12 +36,13 @@ No utiliza librerías externas
 
 La lógica inicial debe estar escrita en pseudocódigo antes de su implementación
 
-## Pseudocodigo
+     ## Pseudocodigo
 
-INICIO
-    Definir opcion Como Entero
-    
-    Mientras opcion != 6 HACER
+     Inicio
+
+     Definir opcion Como Entero
+ 
+     Mientras opcion != 6 HACER
         Imprimir "Gestor de Notas Académicas"
         Imprimir "1. Registrar nuevo curso"
         Imprimir "2. Mostrar todos los cursos y notas"
