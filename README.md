@@ -1,4 +1,4 @@
-# Gestor de notas 
+# GESTOR DE NOTAS
 Un estudiante necesita llevar un mejor control sobre sus notas académicas, y el objetivo principal de este proyecto será mejorar la organización y obtener mayor eficiencia en la gestión de las calificaciones.
 
 El sistema permite al usuario registrar, visualizar, modificar, eliminar, analizar y organizar las notas de los cursos en los que está inscrito, todo desde una interfaz sencilla que se ejecuta en la consola.
@@ -41,32 +41,32 @@ La lógica inicial debe estar escrita en pseudocódigo antes de su implementaci�
 INICIO
     Definir opcion Como Entero
     
-    MIENTRAS opcion != 6 HACER
-        IMPRIMIR "Gestor de Notas Académicas"
-        IMPRIMIR "1. Registrar nuevo curso"
-        IMPRIMIR "2. Mostrar todos los cursos y notas"
-        IMPRIMIR "3. Calcular promedio general"
-        IMPRIMIR "4. Buscar curso por nombre"
-        IMPRIMIR "5. Eliminar un curso"
-        IMPRIMIR "6. Salir"
-        IMPRIMIR "Seleccione una opción:"
-        LEER opcion
+    Mientras opcion != 6 HACER
+        Imprimir "Gestor de Notas Académicas"
+        Imprimir "1. Registrar nuevo curso"
+        Imprimir "2. Mostrar todos los cursos y notas"
+        Imprimir"3. Calcular promedio general"
+        Imprimir "4. Buscar curso por nombre"
+        Imprimir"5. Eliminar un curso"
+        Imprimir "6. Salir"
+        Imprimir "Seleccione una opción:"
+        Leer opcion
 
-        SI opcion = 1 ENTONCES
+        Si opcion = 1 ENTONCES
             <registrar_nuevo_curso>
-        SINO SI opcion = 2 ENTONCES
+        Sino Si opcion = 2 Entonces
             <mostrar_cursos_y_notas>
-        SINO SI opcion = 3 ENTONCES
+        Sino Si opcion = 3 Entonces
             <calcular_promedio_general>
-        SINO SI opcion = 4 ENTONCES
+        Sino Si opcion = 4 Entonces
             <buscar_curso_por_nombre>
-        SINO SI opcion = 5 ENTONCES
+        Sino Si opcion = 5 Entonces
             <eliminar_curso>
-        SINO SI opcion = 6 ENTONCES
-            IMPRIMIR "Gracias por usar el Gestor de Notas Académicas"
-        SINO
-            IMPRIMIR "Opción inválida. Intente de nuevo."
-        FIN_SI
-    FIN_MIENTRAS
-    FIN
+        Sino SI opcion = 6 Entonces
+            Imprimir "Gracias por usar el Gestor de Notas Académicas"
+        Sino
+            Imprimir "Opción inválida. Intente de nuevo."
+        Finsi
+    Finmientras
+    Fin
 
